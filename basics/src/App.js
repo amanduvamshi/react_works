@@ -1,12 +1,7 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
+import { HelloWorld } from "./jsx/helloWorld";
 
 function App() {
-  return <h1>Hello, JSX!</h1>;
+  return <HelloWorld />;
 }
-
-// Render the component inside the root element
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<App />);
 
 export default App;
