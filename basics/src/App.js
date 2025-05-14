@@ -1,11 +1,7 @@
-import './App.css';
+import { HelloWorld } from "./jsx/helloWorld";
 
 function App() {
-  return (
-    <div className="App">
-     Learn React
-    </div>
-  );
+  return <HelloWorld />;
 }
 
 export default App;
